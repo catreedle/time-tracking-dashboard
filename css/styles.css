@@ -82,16 +82,16 @@ body {
 }
 
 .header__nav__list li:hover {
-    color: white;
-    cursor: pointer;
+  color: white;
+  cursor: pointer;
 }
 
 .header__nav__list__active {
-    color: white;
+  color: white;
 }
 
 .header__nav__list__inactive {
-    color: var(--color-pale-blue);
+  color: var(--color-pale-blue);
 }
 
 main {
@@ -108,7 +108,7 @@ main {
 }
 
 .card:hover {
-    background-color: var(--color-desaturated-blue);
+  background-color: var(--color-desaturated-blue);
 }
 
 .card__top {
@@ -172,20 +172,20 @@ main {
 }
 
 .card__content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .card__content__current {
-    font-size: 1.7rem;
-    font-weight: 300;
+  font-size: 1.7rem;
+  font-weight: 300;
 }
 
 .card__content__previous {
-    font-size: 15px;
-    font-weight: 400;
-    color: var(--color-pale-blue);
+  font-size: 15px;
+  font-weight: 400;
+  color: var(--color-pale-blue);
 }
 
 @media (min-width: 768px) {
@@ -242,12 +242,14 @@ main {
     .header__nav__list {
       flex-direction: column;
       text-align: left;
+      justify-content: space-between;
+      gap: 1rem;
     }
 
     .header__profile {
       flex-direction: column;
       text-align: left;
-      height: 60%;
+      height: 70%;
     }
 
     .header__profile__image {
@@ -256,16 +258,16 @@ main {
     }
 
     .card__content {
-        flex-direction: column;
-        text-align: start;
-        align-items: flex-start;
-        justify-content: center;
-        height: 100%;
-        gap: .5rem;
+      flex-direction: column;
+      text-align: start;
+      align-items: flex-start;
+      justify-content: center;
+      height: 100%;
+      gap: 0.5rem;
     }
 
     .card__content__current {
-        font-size: 56px;
+      font-size: 56px;
     }
   }
 }
