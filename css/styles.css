@@ -81,6 +81,11 @@ body {
   list-style: none;
 }
 
+.header__nav__list li:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .header__nav__list__active {
     color: white;
 }
@@ -99,11 +104,17 @@ main {
   margin-block: 1rem;
   border-radius: 1rem;
   padding: 1.5rem;
+  cursor: pointer;
+}
+
+.card:hover {
+    background-color: var(--color-desaturated-blue);
 }
 
 .card__top {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .card__top h1 {
