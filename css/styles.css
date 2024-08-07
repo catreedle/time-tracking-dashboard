@@ -43,6 +43,7 @@ body {
   width: 90%;
   border-radius: 1rem;
   margin-block-start: 4rem;
+  margin-block-end: 1rem;
 }
 
 .header__profile {
