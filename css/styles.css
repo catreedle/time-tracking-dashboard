@@ -171,6 +171,23 @@ main {
   background-position-y: -20%;
 }
 
+.card__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card__content__current {
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+
+.card__content__previous {
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--color-pale-blue);
+}
+
 @media (min-width: 768px) {
   /* styles.css */
 
@@ -236,6 +253,19 @@ main {
     .header__profile__image {
       width: 78px;
       height: 78px;
+    }
+
+    .card__content {
+        flex-direction: column;
+        text-align: start;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100%;
+        gap: .5rem;
+    }
+
+    .card__content__current {
+        font-size: 56px;
     }
   }
 }

@@ -15,6 +15,8 @@
 
     <title>Frontend Mentor | Time tracking dashboard</title>
 
+    <script defer src="index.js"></script>
+
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
       .attribution {
@@ -42,15 +44,15 @@
 
       <nav class="header__nav">
         <ul class="header__nav__list">
-          <li class="header__nav__list__inactive">Daily</li>
-          <li class="header__nav__list__active">Weekly</li>
-          <li class="header__nav__list__inactive">Monthly</li>
+          <li class="header__nav__list__inactive choose_time">Daily</li>
+          <li class="header__nav__list__active choose_time">Weekly</li>
+          <li class="header__nav__list__inactive choose_time">Monthly</li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section class="card--work card__bg">
+      <section id="work" class="card--work card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Work</h1>
@@ -63,7 +65,7 @@
         </div>
       </section>
 
-      <section class="card--play card__bg">
+      <section id="play" class="card--play card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Play</h1>
@@ -76,7 +78,7 @@
         </div>
       </section>
 
-      <section class="card--study card__bg">
+      <section id="study" class="card--study card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Study</h1>
@@ -89,7 +91,7 @@
         </div>
       </section>
 
-      <section class="card--exercise card__bg">
+      <section id="exercise" class="card--exercise card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Exercise</h1>
@@ -101,7 +103,7 @@
           </div>
         </div>
       </section>
-      <section class="card--social card__bg">
+      <section id="social" class="card--social card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Social</h1>
@@ -114,7 +116,7 @@
         </div>
       </section>
 
-      <section class="card--self-care card__bg">
+      <section id="self-care" class="card--self-care card__bg">
         <div class="card">
           <div class="card__top">
             <h1>Self Care</h1>
